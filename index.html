@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- font-family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+		<!-- font-icon -->
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+		<title>Thực hành làm IMDb Heading</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="hd-imdb">
+				<div class="left-comp">
+					<img class="left-comp__logo-main" src="./image/main-logo.png" alt="main-logo" />
+					<div class="left-comp__menu">
+						<span class="menu__icon-hamb material-icons-outlined"> menu </span>
+						Menu
+					</div>
+				</div>
+				<div class="hd-imdb__search-box">
+					<div class="hd-imdb-search-box__search-option">
+						<div class="search-box__menu-all">
+							All
+							<span class="menu-all__exp material-icons-round"> arrow_drop_down </span>
+						</div>
+						<div class="menu-all__dropdown-menu">
+							<a href="#" class="menu-all-dropdown-menu__item"> <span class="icon-size--20px material-icons-outlined"> search </span>All</a>
+							<a href="#" class="menu-all-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> theaters </span>Titles</a>
+							<a href="#" class="menu-all-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> tv </span>TV Episodes</a>
+							<a href="#" class="menu-all-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> group </span>Celebs</a>
+							<a href="#" class="menu-all-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> business </span>Companies </a>
+							<a href="#" class="menu-all-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> label </span>Keywords</a>
+							<div class="menu-all-dropdown-menu__item">
+								<span class="icon-size--20px material-icons-outlined"> pageview </span>Advanced Search
+								<span class="dropdown-menu-item__arrow-icon material-icons-outlined"> chevron_right </span>
+								<div class="menu-all__sub-dropdown-menu">
+									<a href="#" class="menu-all-sub-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> theaters </span>Titles</a>
+									<a href="#" class="menu-all-sub-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> tv </span>TV Episodes</a>
+									<a href="#" class="menu-all-sub-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> group </span>Celebs</a>
+									<a href="#" class="menu-all-sub-dropdown-menu__item"><span class="icon-size--20px material-icons-outlined"> business </span>Companies</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="search-box__inp">
+						<input class="inp__field" placeholder="Search IMDb" />
+						<span class="inp__btn-icon material-icons-outlined"> search </span>
+					</div>
+				</div>
+				<div class="hd-imdb__right-comp">
+					<img class="right-comp__logo-pro" src="./image/second-logo.png" alt="second-logo" />
+					<div class="right-comp__line-user"></div>
+					<div class="right-comp__watchlist">
+						<div class="right-comp__bg-hover"></div>
+						<span class="watchlist__icon material-icons-outlined"> bookmark_add </span>
+						Watchlist
+						<div class="watchlist__badge">912</div>
+					</div>
+					<div class="right-comp__user">
+						<span class="user__icon material-icons-outlined"> account_circle </span>
+						Lam
+						<span class="user__icon-exp material-icons-round"> arrow_drop_down </span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="background-section">
+			<!-- Heading Block -->
+			<section class="info-mov-heading">
+				<!-- Title Block -->
+				<div class="title-block">
+					<div class="info-basic">
+						<h1 class="info-basic__name">The Shawshank Redemption</h1>
+						<div class="info-basic__year-dura">
+							<div class="under-cur">1994</div>
+							<div class="square-dot"></div>
+							<div class="under-cur">R</div>
+							<div class="square-dot"></div>
+							2h 22min
+						</div>
+					</div>
+					<div class="statistic">
+						<div class="statistic__imdb-rating col-ali">
+							<span class="statistic-imdb-rating__label">IMDb RATING</span>
+							<div class="statistic-imdb-rating__vote">
+								<span class="statistic-imdb-rating__icon material-icons-round"> star </span>
+								<div class="statistic-imdb-rating__numb">
+									<div class="imdb-rating-numb__point">
+										<div class="imdb-rating-numb-point__large">9.3</div>
+										<div class="imdb-rating-numb-point__small">/10</div>
+									</div>
+									<div class="imdb-rating-numb__vote-total">2.4M</div>
+								</div>
+							</div>
+						</div>
+						<div class="statistic__your-rating col-ali">
+							<span class="statistic-your-rating__label">YOUR RATING</span>
+							<div class="statistic-your-rating__vote">
+								<span class="statistic-your-rating__icon material-icons-round"> star </span>
+								<div class="statistic-your-rating__numb">
+									<div class="your-rating-numb__large">10</div>
+									<div class="your-rating-numb__small">/10</div>
+								</div>
+							</div>
+						</div>
+						<div class="statistic__popularity col-ali">
+							<div class="statistic-popularity__label">POPULARITY</div>
+							<div class="statistic-popularity__data">
+								<span class="popularity-data__icon material-icons-outlined"> trending_up </span>
+								<div class="popularity-data__numb">
+									<div class="popularity-data-numb__large">48</div>
+									<span class="popularity-data-numb__arrow material-icons-round"> arrow_drop_up </span>
+									<div class="popularity-data-numb__small">9</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sub-nav">
+					<div class="fw7-cfff">Cast & crew</div>
+					<div class="square-dot"></div>
+					<div class="fw7-cfff">User reviews</div>
+					<div class="square-dot"></div>
+					<div class="fw7-cfff">Trivia</div>
+					<div class="square-dot"></div>
+					<div class="fw7-cfff">IMDbPro</div>
+					<div class="sub-nav__topic">
+						<span class="sub-nav-topic__icon material-icons-outlined"> grid_view </span>
+						<span class="sub-nav-topic__text">All topics</span>
+					</div>
+					<div class="sub-nav__line"></div>
+					<span class="sub-nav__share-icon material-icons"> share </span>
+				</div>
+
+				<!-- Review Block -->
+				<div class="review">
+					<div class="review__banner">
+						<div class="review-banner__overlay"></div>
+						<img class="banner__image" src="./image/movie-banner.png" alt="movie-banner" />
+						<img class="banner__bookmark" src="./image/bookmark-icon.png" alt="bookmark-icon" />
+					</div>
+					<div class="review__trailer">
+						<div class="review-trailer__overlay"></div>
+						<img class="trailer__image" src="./image/trailer-image.png" alt="video-trailer" />
+						<div class="trailer__overlay-bar"></div>
+						<span class="trailer__icon-more material-icons-outlined"> more_vert </span>
+						<div class="trailer__ctrl-bar">
+							<img class="ctrl-bar__play-icon" src="./image/play-trailer-icon.png" alt="play-icon" />
+							<img class="ctrl-bar__play-icon-hover" src="./image/play-trailer-icon-hover.png" alt="play-icon-hover" />
+							<span class="ctrl-bar__label">Play trailer </span>
+							<span class="ctrl-bar__dura">2:11</span>
+						</div>
+					</div>
+					<div class="review__lib">
+						<div class="review-lib__video">
+							<span class="lib-video__icon material-icons"> video_library </span>
+							<span class="lib-video__label">5 videos</span>
+						</div>
+						<div class="review-lib__photo">
+							<span class="lib-photo__icon material-icons"> photo_library </span>
+							<span class="lib-photo__label">99+ photos</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Description Block -->
+				<div class="description-block">
+					<div class="description-block__left-column">
+						<div class="left-column__category flex-align-center">
+							<a href="#" class="left-column-category__type color--gray">Action</a>
+							<a href="#" class="left-column-category__type color--gray">Crime</a>
+							<a href="#" class="left-column-category__type color--gray">Drama</a>
+						</div>
+						<div class="left-column__story-summary color--white font-size--16xp line-height-22">
+							Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.
+						</div>
+						<div class="left-column__director flex-align-center">
+							<div class="left-column-director__label color--white font-size--16xp font-weight--700 line-height-22">Director</div>
+							<a href="#" class="left-column-director__name color--blue font-size--16xp no-underline line-height-22">Frank Darabont</a>
+						</div>
+						<div class="left-column__writers">
+							<div class="left-column-writers__label color--white font-size--16xp font-weight--700 line-height-22">Writers</div>
+							<div class="left-column-writers__group-name font-size--16xp color--gray line-height-22 flex-align-center">
+								<a href="#" class="left-column-writers-group-name__name color--blue font-size--16xp no-underline line-height-22">Stephen King</a>
+								(short story "Rita Hayworth and Shawshank Redemption")
+								<div class="square-dot"></div>
+								<a href="#" class="left-column-writers-group-name__name color--blue font-size--16xp no-underline line-height-22">Frank Darabont</a>
+								(screenplay)
+							</div>
+						</div>
+						<div class="left-column__stars flex-align-center">
+							<div class="left-column-stars__label color--white font-size--16xp font-weight--700 line-height-22">Star</div>
+							<div class="left-column-stars__group-name flex-align-center">
+								<a href="#" class="left-column-stars-group-name__name color--blue font-size--16xp no-underline line-height-22">Tim Robbins</a>
+								<div class="square-dot"></div>
+								<a href="#" class="left-column-stars-group-name__name color--blue font-size--16xp no-underline line-height-22">Morgan Freeman</a>
+								<div class="square-dot"></div>
+								<a href="#" class="left-column-stars-group-name__name color--blue font-size--16xp no-underline line-height-22">Bob Gunton</a>
+							</div>
+							<span class="left-column-stars__arrow-icon material-icons-outlined"> chevron_right </span>
+						</div>
+						<div class="left-column__imdbpro flex-align-center">
+							<img class="left-column-imdbpro__logo" src="./image/third-logo.png" alt="imdbpro" />
+							<div class="left-column-imdbpro__desc color--white font-size--16xp">See production, box office & company info</div>
+							<span class="left-column-imdbpro__new-tab-icon material-icons-outlined"> open_in_new </span>
+						</div>
+					</div>
+					<div class="description-block__right-column">
+						<div class="right-column__dropdown flex-align-center">
+							<div class="right-column-dropdow__body flex-align-center">
+								<span class="right-column-dropdow-body__check-icon material-icons-outlined"> done </span>
+								<div class="right-column-dropdow-body__label color--white font-weight--700">In Watchlist</div>
+							</div>
+							<span class="right-column-dropdow__expan material-icons-outlined"> expand_more </span>
+						</div>
+						<div class="right-column__other-info flex-align-center">
+							<div class="right-column-other-info__user-review flex-align-center">
+								<div class="other-info-user-review__number font-weight--700 color--blue font-size--16xp">9.2K</div>
+								<div class="other-info-user-review__label">User reviews</div>
+							</div>
+							<div class="right-column-other-info__critic-review flex-align-center">
+								<div class="other-info-critic-review__number font-weight--700 color--blue font-size--16xp">182</div>
+								<div class="other-info-critic-review__label">Critic reviews</div>
+							</div>
+							<div class="right-column-other-info__metascore flex-align-center">
+								<div class="other-info-metascore__number font-weight--700 font-size--16xp">80</div>
+								<div class="other-info-metascore__label">Metascore</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
